@@ -4,6 +4,8 @@ Sistema web para gestionar ciudadanos, tipos de trámite y trámites municipales
 
 Este repositorio está pensado principalmente para revisión de código (portafolio). No requiere demo pública para evaluarlo.
 
+![Captura del sistema](docs/screenshot.png)
+
 ## Funcionalidades
 - CRUD de ciudadanos.
 - CRUD de tipos de trámite.
