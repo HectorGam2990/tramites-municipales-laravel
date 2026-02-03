@@ -42,7 +42,17 @@
 </nav>
 
 <main>
-    @yield('content')
+    @if (isset($header))
+        <div class="container py-3">
+            {{ $header }}
+        </div>
+    @endif
+
+    @hasSection('content')
+        @yield('content')
+    @else
+        {{ $slot ?? '' }}
+    @endif
 </main>
 
 <!-- Bootstrap JS -->
